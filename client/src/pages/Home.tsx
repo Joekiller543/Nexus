@@ -1,7 +1,7 @@
 import { useLibrary } from "@/hooks/use-library";
 import { MangaCard } from "@/components/MangaCard";
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
-import { Loader2, Search, Filter } from "lucide-react";
+import { Loader2, Search, Filter, Library } from "lucide-react";
 import { useState } from "react";
 import { useAuth } from "@/hooks/use-auth";
 import { Link } from "wouter";
